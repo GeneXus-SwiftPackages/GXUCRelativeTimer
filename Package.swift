@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXUCRelativeTimer",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXUCRelativeTimer-1.0.0-beta+20230307184249.xcframework.zip",
-			checksum: "80edf0d45c5d183c61089b5d97bfdbd11fb0dae8c4654dd323c44d7718417851"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXUCRelativeTimer-1.0.0-beta+20230309092859.xcframework.zip",
+			checksum: "f16b8cb204cc1b66c09de46fd0f8296c4d530819cf5310f6bc45e59079814bc1"
 		)
 	]
 )
