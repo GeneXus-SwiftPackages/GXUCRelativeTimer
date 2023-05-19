@@ -16,13 +16,13 @@ let package = Package(
 		.target(name: "GXUCRelativeTimerWrapper",
 				dependencies: [
 					"GXUCRelativeTimer",
-					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.tvOS, .watchOS, .iOS]))
+					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.tvOS, .iOS, .watchOS]))
 				],
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXUCRelativeTimer",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXUCRelativeTimer-1.0.0-beta+20230518171417.xcframework.zip",
-			checksum: "0d2662e4c6fa95e3ca4f53af06fdb0bd8e2a7688b9e3b11044a35ddf2532a22a"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXUCRelativeTimer-1.0.0-beta+20230519182256.xcframework.zip",
+			checksum: "06290e45d34f6f92285e5b128e77b63f1ede1d162128ef328c8a0b4f66c5167f"
 		)
 	]
 )
