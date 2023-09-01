@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXUCRelativeTimerWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.2.0-beta.14")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.2.0-beta.16")
 	],
 	targets: [
 		.target(name: "GXUCRelativeTimerWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXUCRelativeTimer",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXUCRelativeTimer-1.2.0-beta.14.xcframework.zip",
-			checksum: "a316de98ef09f06db032c5766759a6ae8825445cf128e871f9494743c1c7a8ac"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXUCRelativeTimer-1.2.0-beta.16.xcframework.zip",
+			checksum: "8471bcf8d268c583888f78095c72d97bb1fdb410e45aa038ccf5e63eab8991e5"
 		)
 	]
 )
