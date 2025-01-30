@@ -3,14 +3,14 @@ import PackageDescription
 
 let package = Package(
 	name: "GXUCRelativeTimer",
-	platforms: [.iOS("13.0"), .watchOS("9.0"), .tvOS("13.0"), .visionOS("1.0")],
+	platforms: [.iOS("15.0"), .watchOS("10.0"), .tvOS("18.0"), .visionOS("2.0")],
 	products: [
 		.library(
 			name: "GXUCRelativeTimer",
 			targets: ["GXUCRelativeTimerWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.0.0-rc.8")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.0.0-rc.15")
 	],
 	targets: [
 		.target(name: "GXUCRelativeTimerWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXUCRelativeTimer",
-			url: "https://pkgs.genexus.dev/iOS/preview/GXUCRelativeTimer-3.0.0-rc.8.xcframework.zip",
-			checksum: "248a60df60f676923e7b0bd7b3e215920923ce3f168cc69add44a6b06f1e5f98"
+			url: "https://pkgs.genexus.dev/iOS/preview/GXUCRelativeTimer-3.0.0-rc.15.xcframework.zip",
+			checksum: "000ec17ceecf54325a8b7d3336d2537372cb2777f0de3b4242f931dba4aaacb4"
 		)
 	]
 )
